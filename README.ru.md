@@ -12,13 +12,13 @@ HotdogEd - это хорошо известный и любимый проект
 ![Languages/top](https://shields.io/github/languages/top/reveritus/hotdoged?style=for-the-badge&label=основной%20язык)
 ![Directory-file-count](https://shields.io/github/directory-file-count/reveritus/hotdoged?style=for-the-badge&label=число%20файлов)
 ![LICENSE](https://img.shields.io/github/license/reveritus/hotdoged?color=blue&style=for-the-badge&label=лицензия)
-![Issues](https://shields.io/github/issues/reveritus/hotdoged?style=for-the-badge&label=иссю)
+![Issues](https://shields.io/github/issues/reveritus/hotdoged?style=for-the-badge&label=проблемы)
 ![Issues-pr](https://shields.io/github/issues-pr/reveritus/hotdoged?style=for-the-badge)
-![Discussions](https://shields.io/github/discussions/reveritus/hotdoged?style=for-the-badge)
-![Forks](https://shields.io/github/forks/reveritus/hotdoged?style=for-the-badge)
-![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge)
-![Watchers](https://shields.io/github/watchers/reveritus/hotdoged?style=for-the-badge)
-![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge)
+![Discussions](https://shields.io/github/discussions/reveritus/hotdoged?style=for-the-badge&label=задачи)
+![Forks](https://shields.io/github/forks/reveritus/hotdoged?style=for-the-badge&label=форк)
+![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge&label=звезд)
+![Watchers](https://shields.io/github/watchers/reveritus/hotdoged?style=for-the-badge&label=смотрящие)
+![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge&label=вкладчики)
 </div>
 
 The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
