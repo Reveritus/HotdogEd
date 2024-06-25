@@ -21,46 +21,41 @@ HotdogEd - это хорошо известный и любимый проект
 ![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge&label=вкладчики)
 </div>
 
-The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
+Исходные тексты, полученные с помощью реверс-инжиниринга, публикуются в другом форке (местоположение которого будет объявлено позже ;) в ознакомительных целях. Полная компиляция приложения из них искусственно сделана невозможной как для сохранения авторских прав, так и для того, чтобы "жизнь малиной не казалась" и "без пруда не вытащишь и рыбку из него". Однако, несмотря на это, приложение может быть собрано специальным образом.
 
-All compiled libraries are included in the source code, including well-known ones, since the source application was built on currently outdated APIs, JDK and SDK/NDK and has not been updated again, in addition, the source texts contain multiple intersections with these libraries and vice versa.
+В исходный код включены все скомпилированные библиотеки, в том числе хорошо известные, поскольку исходное приложение было построено на устаревших на данный момент API, JDK и SDK/NDK и больше не рефармилось, кроме того, исходные тексты содержат множественные пересечения с этими библиотеками и наоборот.
 
-The purpose of this project is to update an existing application to work under current Android versions in the absence of the author's support.
-The author, Sergey Positurin, left FidoNet in 2022 and has no plans to support his application. He also did not want to leave the source texts, despite repeated requests from the community. Nevertheless, to a direct question about the possibility of publishing the application and the data contained in it, in the summer of 2024, Sergey Positurin answered in the affirmative, as evidenced by the corresponding screenshot. Thus, the application, according to the author, goes into the public domain.
+Целью этого проекта является обновление существующего приложения для работы под текущими версиями Android в отсутствие поддержки автора. Автор, Сергей Позитурин, покинул FidoNet в 2022 году и не планирует поддерживать свое приложение. Он также не захотел оставлять исходные тексты, несмотря на неоднократные просьбы сообщества. Тем не менее, на прямой вопрос о возможности публикации приложения и  данных, содержащихся в нем, летом 2024 года Сергей Позитурин ответил утвердительно, о чем свидетельствует соответствующий скриншот. Таким образом, приложение, по словам автора, переходит в общественное достояние.
 
-We invite everyone to take part in the project as much as possible.
+Мы приглашаем всех желающих принять максимально возможное участие в проекте, включая посильное.
 
-## Existing versions
+## Существующие версии
 
-Current stable: 2.14.5 (32) r1 or r2
+Текущая стабильная версия: 2.14.5 (32) r1 или r2
 
-Current unstable: 2.14.5 (33)
+Текущая версия нестабильна: 2.14.5 (33)
 
-Latest original version: 2.13.5 (26)
+Последняя оригинальная версия: 2.13.5 (26)
 
-First disassembly/reassembly: 2.14.5 (27)
+Первая разборка/повторная сборка: 2.14.5 (27)
 
-Thus, the version after disassembly is 10 units higher than the original version after the first paragraph. The release order (in parentheses) has been preserved. The versions may differ in revisions for devices from different manufacturers (for example, Xiaomi and Samsung).
+Таким образом, версия после дизассемблирования на 10 единиц выше исходной версии после первой точки (параграфа). Порядок выпуска (в скобках) сохранен. Версии могут отличаться ревизиями для устройств разных производителей (например, Xiaomi и Samsung).
 
-## Doesn't support (yet or already):
+## Не поддерживается (пока или уже):
+ - [  ] - Синхронизация последней прочитанной строки
+ - [  ] - NNTP
+ - [  ] - IPv6
 
-- [ ] Sync lastrid's
-- [ ] NNTP
-- [ ] IPv6
-
-## Support:
-
-- [x] JDK17
-- [x] Java 1.8
-- [ ] Deep Black theme (for AMOLED displays)
-
-## Features:
-
-- [x] Yggdrasil mesh network connections
-- [x] Localhost Syncronous network connections
-- [x] Native Russian interface
-- [x] Android v.13+ (succesfully tested v.14)
-- [ ] The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
-- [ ] Database and incoming in a folder accessible to the user
-- [x] Multilink
-- [x] Copypaste edit
+## Поддерживается:
+ - [x] - JDK17
+ - [x] - Java 1.8
+ - [x] - Тема Deep Black (для AMOLED-дисплеев)
+## Особенности:
+ - [x] - Сетевые соединения Yggdrasil mesh
+ - [x] - Синхронные сетевые подключения Localhost
+ - [x] - Собственный русский интерфейс
+ - [x] - Android версии 13+ (успешно протестирована версия 14)
+ - [x] - Минимальная версия Android v.5.1 (но это не точно; возможно, создание приложения для Android с версии 11 по 14+ звучит проще, чем создание полностью универсального приложения от ранних версий Android 2-4-6 и выше до текущих);
+ - [ ] - Базу данных и входящие файлы в папке, доступной пользователю
+ - [x] - Multilink
+ - [x] - Редактирование копипасты
