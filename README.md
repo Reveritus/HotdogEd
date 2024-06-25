@@ -30,6 +30,8 @@ The author, Sergey Positurin, left FidoNet in 2022 and has no plans to support h
 
 We invite everyone to take part in the project as much as possible.
 
+Actual version: 2.14.5 (32) r1 or r2
+
 ## Doesn't support (yet or already):
 
 - [ ] Sync lastrid's
