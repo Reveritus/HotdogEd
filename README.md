@@ -19,18 +19,6 @@ HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project f
 ![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge)
 ![Watchers](https://shields.io/github/watchers/reveritus/hotdoged?style=for-the-badge)
 ![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge)
-
-![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?color=blue&style=for-the-badge)
-![Issues](https://shields.io/github/issues/reveritus/hotdoged?color=blue&style=for-the-badge)
-![Activity](https://shields.io/github/commit-activity/w/reveritus/hotdoged?style=for-the-badge)
-![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge)
-![Watchers](https://shields.io/github/watchers/reveritus/hotdoged?style=for-the-badge)
-![Forks](https://shields.io/github/forks/reveritus/hotdoged?style=for-the-badge)
-![Languages](https://shields.io/github/languages/count/reveritus/hotdoged?style=for-the-badge)
-![Languages/top](https://shields.io/github/languages/top/reveritus/hotdoged?style=for-the-badge)
-![Code-size](https://shields.io/github/languages/code-size/reveritus/hotdoged?style=for-the-badge)
-![Repo-size](https://shields.io/github/repo-size/reveritus/hotdoged?style=for-the-badge)
-![License](https://shields.io/github/license/reveritus/hotdoged?color=blue&style=for-the-badge)
 </div>
 
 The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
