@@ -2,7 +2,7 @@
 
 <div align="center">
 
-HotdogEd is a well-known and beloved ftn project for reading and writing in the echoes of FidoNet and compatible networks.
+HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
 
 ![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?color=blue&style=for-the-badge)
 ![Issues](https://shields.io/github/issues/reveritus/hotdoged?color=blue&style=for-the-badge)
@@ -17,7 +17,7 @@ HotdogEd is a well-known and beloved ftn project for reading and writing in the 
 ![License](https://shields.io/github/license/reveritus/hotdoged?color=blue&style=for-the-badge)
 </div>
 
-The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled in a special way.
+The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
 
 All compiled libraries are included in the source code, including well-known ones, since the source application was built on currently outdated APIs, JDK and SDK/NDK and has not been updated again, in addition, the source texts contain multiple intersections with these libraries and vice versa.
 
@@ -44,7 +44,7 @@ We invite everyone to take part in the project as much as possible.
 - [x] Localhost Syncronous network connections
 - [x] Native Russian interface
 - [x] Android v.13+ (succesfully tested v.14)
-- [x] Minimal Android v.5.1 (no eto ne tochno!)
+- [x] Minimal Android v.5.1 (so, it's not yet correctly; perharps, assemble of application from Android 10 to 13+ sounds like lightests than fully universal app from early Android 2-4-6)
 - [ ] Database and incoming in a folder accessible to the user
 - [x] Multilink
 - [x] Copypaste edit
