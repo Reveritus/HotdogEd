@@ -30,7 +30,15 @@ The author, Sergey Positurin, left FidoNet in 2022 and has no plans to support h
 
 We invite everyone to take part in the project as much as possible.
 
-Actual version: 2.14.5 (32) r1 or r2
+Existed versions
+
+Actual stable: 2.14.5 (32) r1 or r2
+
+Actual unstable: 2.14.5 (33)
+
+Last original: 2.13.5 (26)
+
+First disassembled/reassembled: 2.14.5 (27)
 
 ## Doesn't support (yet or already):
 
