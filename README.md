@@ -4,6 +4,22 @@
 
 HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
 
+[![Latest release](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=latest%20release&style=for-the-badge)](https://github.com/reveritus/hotdoged/releases/latest)
+![Downloads](https://img.shields.io/github/downloads/reveritus/hotdoged/total?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/reveritus/hotdoged?style=for-the-badge)
+![Code-size](https://shields.io/github/languages/code-size/reveritus/hotdoged?style=for-the-badge)
+![Languages](https://shields.io/github/languages/count/reveritus/hotdoged?style=for-the-badge)
+![Languages/top](https://shields.io/github/languages/top/reveritus/hotdoged?style=for-the-badge)
+![Directory-file-count](https://shields.io/github/directory-file-count/reveritus/hotdoged?style=for-the-badge)
+![LICENSE](https://img.shields.io/github/license/reveritus/hotdoged?color=blue&style=for-the-badge)
+![Issues](https://shields.io/github/issues/reveritus/hotdoged?style=for-the-badge)
+![Issues-pr](https://shields.io/github/issues-pr/reveritus/hotdoged?style=for-the-badge)
+![Discussions](https://shields.io/github/discussions/reveritus/hotdoged?style=for-the-badge)
+![Forks](https://shields.io/github/forks/reveritus/hotdoged?style=for-the-badge)
+![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge)
+![Watchers](https://shields.io/github/watchers/reveritus/hotdoged?style=for-the-badge)
+![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge)
+
 ![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?color=blue&style=for-the-badge)
 ![Issues](https://shields.io/github/issues/reveritus/hotdoged?color=blue&style=for-the-badge)
 ![Activity](https://shields.io/github/commit-activity/w/reveritus/hotdoged?style=for-the-badge)
