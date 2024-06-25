@@ -44,7 +44,7 @@ We invite everyone to take part in the project as much as possible.
 - [x] Localhost Syncronous network connections
 - [x] Native Russian interface
 - [x] Android v.13+ (succesfully tested v.14)
-- [x] Minimal Android v.5.1 (so, it's not yet correctly; perharps, assemble of application from Android 10 to 13+ sounds like lightests than fully universal app from early Android 2-4-6)
+- [ ] The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
 - [ ] Database and incoming in a folder accessible to the user
 - [x] Multilink
 - [x] Copypaste edit
