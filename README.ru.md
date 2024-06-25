@@ -13,7 +13,7 @@ HotdogEd - это хорошо известный и любимый проект
 ![Directory-file-count](https://shields.io/github/directory-file-count/reveritus/hotdoged?style=for-the-badge&label=число%20файлов)
 ![LICENSE](https://img.shields.io/github/license/reveritus/hotdoged?color=blue&style=for-the-badge&label=лицензия)
 ![Issues](https://shields.io/github/issues/reveritus/hotdoged?style=for-the-badge&label=проблемы)
-![Issues-pr](https://shields.io/github/issues-pr/reveritus/hotdoged?style=for-the-badge)
+![Issues-pr](https://shields.io/github/issues-pr/reveritus/hotdoged?style=for-the-badge&label=задачи)
 ![Discussions](https://shields.io/github/discussions/reveritus/hotdoged?style=for-the-badge&label=задачи)
 ![Forks](https://shields.io/github/forks/reveritus/hotdoged?style=for-the-badge&label=форк)
 ![Stars](https://shields.io/github/stars/reveritus/hotdoged?style=for-the-badge&label=звезд)
