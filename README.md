@@ -81,9 +81,9 @@ of the settings, for example, "Scores" instead of a tweet.
 
 ## ToDo
 
-- [  ] normal English build;
-- [  ] human-friendly DATABASE transfer to external storage;
-- [  ] setting up templates;
-- [  ] access to logs;
-- [  ] incoming binkp connections;
-- [  ] new provider for nodes.
+- [ ] normal English build
+- [ ] human-friendly DATABASE transfer to external storage
+- [ ] setting up templates
+- [ ] access to logs
+- [ ] incoming binkp connections
+- [ ] new provider for nodes
