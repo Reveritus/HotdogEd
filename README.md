@@ -88,4 +88,5 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] incoming binkp connections
 - [ ] new provider for nodes
 
-[![Latest release](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=latest%20release&style=for-the-badge)](https://github.com/reveritus/hotdoged/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=latest%20release&style=for-the-badge)]
+()
