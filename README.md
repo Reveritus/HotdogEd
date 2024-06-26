@@ -1,6 +1,6 @@
-# HotdogEd
-
 <div align="center">
+
+# HotdogEd
 
 ![](https://img.shields.io/badge/-000000?style=for-the-badge&logo=fidoalliance&logoSize=auto)![Static Badge](https://img.shields.io/badge/-000000?style=for-the-badge&logo=.net&logoSize=auto)
 
