@@ -1,8 +1,8 @@
 # HotdogEd
 
-![](https://img.shields.io/badge/-000000?style=for-the-badge&logo=fidoalliance&logoSize=auto)![Static Badge](https://img.shields.io/badge/-000000?style=for-the-badge&logo=.net&logoSize=auto)
-
 <div align="center">
+
+![](https://img.shields.io/badge/-000000?style=for-the-badge&logo=fidoalliance&logoSize=auto)![Static Badge](https://img.shields.io/badge/-000000?style=for-the-badge&logo=.net&logoSize=auto)
 
 HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
 
