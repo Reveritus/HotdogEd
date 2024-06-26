@@ -92,4 +92,6 @@ of the settings, for example, "Scores" instead of a tweet.
 
 ![Endpoint Badge](https://img.shields.io/endpoint?style=social&label=x&labelColor=Red&color=Black)
 
+https://img.shields.io/badge/x-8A2BE2
+
 
