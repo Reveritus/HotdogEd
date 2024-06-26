@@ -72,6 +72,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [x] Android v.13+ (succesfully tested v.14)
 - [ ] The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
 - [ ] Database and incoming in a folder accessible to the user
+![Static Badge](https://img.shields.io/badge/Multilink-000000?style=for-the-badge&label=X&labelColor=Ffffff)
 - [x] Multilink
 - [x] Copypaste edit
 - [x] Garbage disposal
