@@ -84,7 +84,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] human-friendly DATABASE transfer to external storage
 ![](https://img.shields.io/badge/setting%20up%20templates?color=Black)
 ![](https://img.shields.io/badge/incoming%20connections-8A2BE2?color=Black)
-![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?color=Black)
+![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?style=for_the_badge&color=Black)
 
 
 
