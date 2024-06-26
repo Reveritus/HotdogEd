@@ -1,6 +1,6 @@
 # HotdogEd
 
-<div align="center" size=6px>
+<div align="center">
 
 HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
 
@@ -83,7 +83,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] setting up templates
 ![](https://img.shields.io/badge/access%20to%20logs-8A2BE2?style=social&label=&labelColor=Red&color=Black)
 ![](https://img.shields.io/badge/incoming%20connections-8A2BE2?style=social&label=&labelColor=Red&color=Black)
-![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?style=social&label=&labelColor=Red&color=Black)
+![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?style=social&color=Black)
 
 
 
