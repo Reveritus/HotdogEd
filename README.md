@@ -21,6 +21,12 @@ HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project f
 ![Contributors](https://shields.io/github/contributors/reveritus/hotdoged?style=for-the-badge)
 </div>
 
+HotDog aka HotdogEd - reader 
+FidoNet [and news] for Android.
+Written by Sergey Poziturin aka 2:5020/2140 back in 2013.
+In April 2022, Positurin drank out of Fido, never leaving 
+sources, as well as Russification, decent documentation and support.
+
 The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
 
 All compiled libraries are included in the source code, including well-known ones, since the source application was built on currently outdated APIs, JDK and SDK/NDK and has not been updated again, in addition, the source texts contain multiple intersections with these libraries and vice versa.
@@ -38,7 +44,7 @@ Current stable (FTN-provider only): 2.14.5 (32) r1 or r2
 
 Current unstable: 2.14.5 (33)
 
-Latest original version: 2.13.5 (26)
+Latest original version: 2.13.5 (26) from 2017.
 
 First disassembly/reassembly: 2.14.5 (27)
 
