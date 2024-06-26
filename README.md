@@ -77,7 +77,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [x] Copypaste edit
 - [x] Garbage disposal
 - [x] Fixed quotas displayed crookedly on computers
-- [/] Documentation
+- [] Documentation
 
 ## ToDo
 
