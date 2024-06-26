@@ -1,6 +1,6 @@
 # HotdogEd
 
-<div align="center" size="6px">
+<div align="center" size=6px>
 
 HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
 
