@@ -83,7 +83,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] setting up templates
 - [ ] access to logs
 - [ ] incoming binkp connections
-![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?style=social&label=x&labelColor=Red&color=Black)
+![](https://img.shields.io/badge/new%20provider%20for%20nodes-8A2BE2?style=social&label=&labelColor=Red&color=Black)
 
 
 
