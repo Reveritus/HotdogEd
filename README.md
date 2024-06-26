@@ -70,13 +70,13 @@ of the settings, for example, "Scores" instead of a tweet.
 - [x] Localhost Syncronous network connections
 - [x] Native Russian interface
 - [ ] The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
-![](https://img.shields.io/badge/Android%20v.14-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/ty-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/Database%20and%20incoming%20in%20a%20folder%20accessible%20to%20the%20user-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/Multilink-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/Copypaste%20edit-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/Garbage%20disposal-000000?style=for-the-badge&label=√&labelColor=Ffffff)
-![](https://img.shields.io/badge/Fixed%20quotas%20displayed%20crookedly%20on%20computers-000000?style=for-the-badge&label=√&labelColor=Ffffff)
+![](https://img.shields.io/badge/Android%20v.14-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/ty-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Database%20and%20incoming%20in%20a%20folder%20accessible%20to%20the%20user-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Multilink-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Copypaste%20edit-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Garbage%20disposal-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Fixed%20quotas%20displayed%20crookedly%20on%20computers-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 
 ## ToDo
