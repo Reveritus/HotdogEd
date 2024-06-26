@@ -83,11 +83,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] setting up templates
 - [ ] access to logs
 - [ ] incoming binkp connections
-- [ ] new provider for nodes
-
-![](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=Documentation)
-
-![Endpoint Badge](https://img.shields.io/badge/x-8A2BE2?style=social&label=x&labelColor=Red&color=Black)
+![](https://img.shields.io/badge/x-8A2BE2?style=social&label=new%20provider%20for%20nodes&labelColor=Red&color=Black)
 
 
 
