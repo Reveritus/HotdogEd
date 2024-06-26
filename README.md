@@ -55,6 +55,9 @@ Thus, the version after disassembly is 10 units higher than the original version
 - [ ] Sync lastrid's
 - [ ] NNTP
 - [ ] IPv6
+- [ ] Russification of values stored in the database (for compatibility with your existing database), including
+the names of some sections
+of the settings, for example, "Scores" instead of a tweet.
 
 ## Support:
 
@@ -72,3 +75,15 @@ Thus, the version after disassembly is 10 units higher than the original version
 - [ ] Database and incoming in a folder accessible to the user
 - [x] Multilink
 - [x] Copypaste edit
+- [x] Garbage disposal
+- [x] Fixed quotas displayed crookedly on computers
+- [/] Documentation
+
+## ToDo
+
+- [  ] normal English build;
+- [  ] human-friendly DATABASE transfer to external storage;
+- [  ] setting up templates;
+- [  ] access to logs;
+- [  ] incoming binkp connections;
+- [  ] new provider for nodes.
