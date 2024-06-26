@@ -66,6 +66,8 @@ of the settings, for example, "Scores" instead of a tweet.
 
 ## Features:
 
+![](https://img.shields.io/badge/-00ff00?style=for-the-badge&label=√&labelColor=8a2be2)
+
 - [x] Yggdrasil mesh network connections
 - [x] Localhost Syncronous network connections
 - [x] Native Russian interface
