@@ -77,7 +77,7 @@ of the settings, for example, "Scores" instead of a tweet.
 - [x] Copypaste edit
 - [x] Garbage disposal
 - [x] Fixed quotas displayed crookedly on computers
-- [] Documentation
+- [ ] Documentation
 
 ## ToDo
 
@@ -87,3 +87,5 @@ of the settings, for example, "Scores" instead of a tweet.
 - [ ] access to logs
 - [ ] incoming binkp connections
 - [ ] new provider for nodes
+
+[![Latest release](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=latest%20release&style=for-the-badge)](https://github.com/reveritus/hotdoged/releases/latest)
