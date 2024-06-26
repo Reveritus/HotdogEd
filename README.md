@@ -81,7 +81,7 @@ of the settings, for example, "Scores" instead of a tweet.
 ## ToDo
 
 ![](https://img.shields.io/badge/normal%20English%20build-000000?style=for-the-badge)
-![](https://img.shields.io/badge/human-friendly%20DATABASE%20transfer%20to%20external%20storage-000000?style=for-the-badge)
+![](https://img.shields.io/badge/human--friendly%20DATABASE%20transfer%20to%20external%20storage-000000?style=for-the-badge)
 ![](https://img.shields.io/badge/setting%20up%20templates-000000?style=for-the-badge)
 ![](https://img.shields.io/badge/incoming%20connections-000000?style=for-the-badge)
 ![](https://img.shields.io/badge/new%20provider%20for%20nodes-000000?style=for-the-badge)
