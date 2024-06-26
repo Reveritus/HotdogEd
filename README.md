@@ -77,7 +77,7 @@ of the settings, for example, "Scores" instead of a tweet.
 ![](https://img.shields.io/badge/Copypaste%20edit-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Garbage%20disposal-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Fixed%20quotas%20displayed%20crookedly%20on%20computers-000000?style=for-the-badge&label=√&labelColor=8a2be2)
-![](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Documentation-00ff00?style=for-the-badge&label=√&labelColor=8a2be2)
 
 ## ToDo
 
