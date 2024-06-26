@@ -90,3 +90,6 @@ of the settings, for example, "Scores" instead of a tweet.
 
 ![](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=Documentation)
 
+![Endpoint Badge](https://img.shields.io/endpoint?style=social&label=x&labelColor=Red&color=Black)
+
+
