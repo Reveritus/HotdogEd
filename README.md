@@ -33,7 +33,7 @@ The source texts obtained using reverse engineering are published in another for
 All compiled libraries are included in the source code, including well-known ones, since the source application was built on currently outdated APIs, JDK and SDK/NDK and has not been updated again, in addition, the source texts contain multiple intersections with these libraries and vice versa.
 
 The purpose of this project is to update an existing application to work under actual Android versions in the absence of the author's support.
-The author, Sergey Positurin, left FidoNet in 2022 and has no plans to support his application. He also did not want to leave the source texts, despite repeated requests from the community. Nevertheless, to a direct question about the possibility of publishing the application and the data contained in it, in the summer of 2024, Sergey Positurin answered in the affirmative, as evidenced by the corresponding screenshot. Thus, the application, according to the author, goes into the public domain.
+![The author](https://img.shields.io/badge/Sergey%20Piziturin-DC143C?label=The%20author,%20&labelColor=FF4500), left FidoNet in 2022 and has no plans to support his application. He also did not want to leave the source texts, despite repeated requests from the community. Nevertheless, to a direct question about the possibility of publishing the application and the data contained in it, in the summer of 2024, Sergey Positurin answered in the affirmative, as evidenced by the corresponding screenshot. Thus, the application, according to the author, goes into the ![public domain](https://img.shields.io/badge/domain-FF0000?label=public&labelColor=FF4500).
 
 We invite everyone to take part in the project as much as possible.
 
@@ -50,18 +50,6 @@ We invite everyone to take part in the project as much as possible.
 ![](https://img.shields.io/badge/2.13.5.01b%20(27)-000000?style=for-the-badge&label=First%20disassembly/reassembly&labelColor=008000)
 
 Thus, the version after disassembly is 10 units higher than the original version after the first paragraph. The release order (in parentheses) has been preserved. The versions may differ in revisions for devices from different manufacturers (for example, Xiaomi and Samsung).
-
-## Doesn't support (yet or already, forever or not):
-
-![](https://img.shields.io/badge/Sync%20lastrid's-000000?style=for-the-badge)
-![](https://img.shields.io/badge/NNTP-000000?style=for-the-badge)
-![](https://img.shields.io/badge/normal%20English%20build-000000?style=for-the-badge)
-![](https://img.shields.io/badge/IPv6-000000?style=for-the-badge)
-
-![](https://img.shields.io/badge/Russification%20of%20values%20stored%20in%20the%20DB%20(for%20compatibility%20with%20your%20existing%20DB),%20including%20the%20names%20of%20some%20sections-000000?style=for-the-badge)![](https://img.shields.io/badge/%20of%20the%20settings,%20for%20example,%20"Scores"%20instead%20of%20a%20tweet-000000?style=for-the-badge)
-
-![](https://img.shields.io/badge/The%20minimum%20version%20of%20Android%20v.5.1,%20but%20this%20is%20not%20accurate%20--%20perharps%20building%20an%20Android%20application%20from-000000?style=for-the-badge)
-![](https://img.shields.io/badge/version%2011%20to%2014+%20sounds%20easier%20than%20a%20completely%20universal%20application%20from%20early%20versions%20of%20Android%20up%20to%206.0%20and%20up%20to%20current%20ones-000000?style=for-the-badge)
 
 ## Support:
 
@@ -80,6 +68,21 @@ Thus, the version after disassembly is 10 units higher than the original version
 ![](https://img.shields.io/badge/Copypaste%20edit-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Garbage%20disposal-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Fixed%20quotas%20displayed%20crookedly%20on%20PC's-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+
+## Doesn't support (yet or already, forever or not):
+
+![Lastread](https://img.shields.io/badge/Sync%20lastread's-000000?style=for-the-badge)
+![NNTP](https://img.shields.io/badge/NNTP-000000?style=for-the-badge)
+![English](https://img.shields.io/badge/normal%20English%20build-000000?style=for-the-badge)
+![IPv6](https://img.shields.io/badge/IPv6-000000?style=for-the-badge)
+
+![](https://img.shields.io/badge/The%20minimum%20version%20of%20Android%20v.5.1,%20but%20this%20is%20not%20accurate%20--%20perharps%20building%20an%20Android%20application%20from-000000?style=for-the-badge)
+![](https://img.shields.io/badge/version%2011%20to%2014+%20sounds%20easier%20than%20a%20completely%20universal%20application%20from%20early%20versions%20of%20Android%20up%20to%206.0%20and%20up%20to%20current%20ones-000000?style=for-the-badge)
+
+![Surprise](https://img.shields.io/badge/Surprise!%20Today%20the%20application%20is%20not%20only%20Russified,%20it%20is%20written%20in%20Russian%20and%20for%20Russians.-000000?style=for-the-badge) ![](https://img.shields.io/badge/Perhaps%20someday%20it%20will%20be%20translated%20into%20other%20languages%20again,%20but%20definitely%20not%20now.-000000?style=for-the-badge)
+![Russian](https://img.shields.io/badge/Simple%20and%20elegance%20solution%20--%20learn%20great%20russian%20language,%20the%20mother%20of%20languages!-000000?style=for-the-badge)
+
+![](https://img.shields.io/badge/Russification%20of%20values%20stored%20in%20the%20DB%20(for%20compatibility%20with%20your%20existing%20DB),%20including%20the%20names%20of%20some%20sections-000000?style=for-the-badge)![](https://img.shields.io/badge/%20of%20the%20settings,%20for%20example,%20"Scores"%20instead%20of%20a%20tweet-000000?style=for-the-badge)
 
 ## ToDo
 
