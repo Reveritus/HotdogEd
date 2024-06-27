@@ -51,19 +51,20 @@ Thus, the version after disassembly is 10 units higher than the original version
 
 ## Doesn't support (yet or already):
 
-- [ ] Sync lastrid's
-- [ ] NNTP
-- [ ] IPv6
-- [ ] Russification of values stored in the database (for compatibility with your existing database), including
+![](https://img.shields.io/badge/Sync%20lastrid's-000000?style=for-the-badge)
+![](https://img.shields.io/badge/NNTP-000000?style=for-the-badge)
+![](https://img.shields.io/badge/normal%20English%20build-000000?style=for-the-badge)
+![](https://img.shields.io/badge/IPv6-000000?style=for-the-badge)
+- Russification of values stored in the database (for compatibility with your existing database), including
 the names of some sections
 of the settings, for example, "Scores" instead of a tweet
-- [  ] The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
+- The minimum version of Android v.5.1 (but this is not accurate; perhaps building an Android application from version 11 to 14+ sounds easier than a completely universal application from early versions of Android 2-4-6 and up to current ones);
 
 ## Support:
 
-- [x] JDK17
-- [x] Java 1.8
-- [ ] Deep Black theme (for AMOLED displays)
+![](https://img.shields.io/badge/JDK--17-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Java%201.8-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Deep%20black%20theme%20(for%20AMOLED%20displays)-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 
 ## Features:
 
