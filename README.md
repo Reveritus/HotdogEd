@@ -70,13 +70,12 @@ of the settings, for example, "Scores" instead of a tweet
 ![](https://img.shields.io/badge/Yggdrasil%20mesh%20network%20connections-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Localhost%Syncronous%20network%20connections-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Native%Russian%20interface-000000?style=for-the-badge&label=√&labelColor=8a2be2)
-![](https://img.shields.io/badge/Android%20v.14-000000?style=for-the-badge&label=√&labelColor=8a2be2)
+![](https://img.shields.io/badge/Android%20v.14-000000?style=for-the-badge&label=√&labelColor=8a2be2)![](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/DB%20and%20incoming%20in%20a%20user%20accessible%20folder-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Multilink-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Copypaste%20edit-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Garbage%20disposal-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 ![](https://img.shields.io/badge/Fixed%20quotas%20displayed%20crookedly%20on%20PC's-000000?style=for-the-badge&label=√&labelColor=8a2be2)
-![](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&label=√&labelColor=8a2be2)
 
 ## ToDo
 
