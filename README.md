@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/-000000?style=for-the-badge&logo=fidoalliance&logoSize=auto)
 ![Static Badge](https://img.shields.io/badge/-000000?style=for-the-badge&logo=.net&logoSize=auto)
 
-HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing in the netmail and echoes of FidoNet and compatible networks.
+HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project for reading and writing of the netmail and echo-conferences in FidoNet and compatible networks.
 
 [![Latest release](https://img.shields.io/github/v/release/reveritus/hotdoged?include_prereleases&label=latest%20release&style=for-the-badge)](https://github.com/reveritus/hotdoged/releases/latest)
 ![Downloads](https://img.shields.io/github/downloads/reveritus/hotdoged/total?style=for-the-badge)
