@@ -26,14 +26,14 @@ HotdogEd is a well-known and beloved FTN (FidoNet Technology Networks) project f
 
 HotDog aka HotdogEd - FidoNet reader for Android.
 Written by Sergey Poziturin aka 2:5020/2140 back in 2013.
-In April 2022, Positurin drank out of Fido, never leaving sources, as well as Russification, decent documentation and support.
+In April 2022, Poziturin drank out of Fido, never leaving sources, as well as Russification, decent documentation and support.
 
 The source texts obtained using reverse engineering are published in another fork (the location of which will be announced later ;) for informational purposes. A complete compilation of the application from them is artificially made impossible both to preserve copyrights, and so that "life does not seem like a raspberry" and "you can't get a fish out without a pond". However, despite this, the application can be assembled by the special way.
 
 All compiled libraries are included in the source code, including well-known ones, since the source application was built on currently outdated APIs, JDK and SDK/NDK and has not been updated again, in addition, the source texts contain multiple intersections with these libraries and vice versa.
 
 The purpose of this project is to update an existing application to work under actual Android versions in the absence of the author's support.
-![The author](https://img.shields.io/badge/Sergey%20Piziturin-DC143C?label=The%20author,%20&labelColor=FF4500), left FidoNet in 2022 and has no plans to support his application. He also did not want to leave the source texts, despite repeated requests from the community. Nevertheless, to a direct question about the possibility of publishing the application and the data contained in it, in the summer of 2024, Sergey Positurin answered in the affirmative, as evidenced by the corresponding screenshot. Thus, the application, according to the author, goes into the ![public domain](https://img.shields.io/badge/domain-FF0000?label=public&labelColor=FF4500).
+![The author](https://img.shields.io/badge/Sergey%20Poziturin-DC143C?label=The%20author,%20&labelColor=FF4500), left FidoNet in 2022 and has no plans to support his application. He also did not want to leave the source texts, despite repeated requests from the community. Nevertheless, to a direct question about the possibility of publishing the application and the data contained in it, in the summer of 2024, Sergey Poziturin answered in the affirmative, as evidenced by the corresponding screenshot. Thus, the application, according to the author, goes into the ![public domain](https://img.shields.io/badge/domain-FF0000?label=public&labelColor=FF4500).
 
 We invite everyone to take part in the project as much as possible.
 
