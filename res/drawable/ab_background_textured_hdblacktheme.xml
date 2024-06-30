@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    android:src="@drawable/ab_texture_tile_hdblacktheme"
+    android:tileMode="repeat"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
