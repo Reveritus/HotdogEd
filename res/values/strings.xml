@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="about_fidonet">About Fidonet</string>
+    <string name="about_hint">Please enter some info about yourself (English and Russian languages are ok). Note, that this field is mandatory, you should give system operator something about youself. :)</string>
+    <string name="action_settings">Settings</string>
+    <string name="active_node">Active boss node</string>
+    <string name="allow_incoming_connections">Allow incoming binkp connections</string>
+    <string name="already_have_point">If you already have point, you can configure a new point address in HotdogEd.</string>
+    <string name="app_name">HotdogEd FIDO provider</string>
+    <string name="areas_description_url">Areas description URL</string>
+    <string name="articles_read_will_be_deleted">Read articles will be deleted at sync</string>
+    <string name="boss_address">Boss 3D FTN address (*)</string>
+    <string name="boss_ip_address">Boss IP address:port</string>
+    <string name="by_last_message_date">By last message date</string>
+    <string name="by_message_count">By message count</string>
+    <string name="by_name">By name</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_node">Choose node</string>
+    <string name="codepage">Codepage</string>
+    <string name="custom_headers_for_edit">Custom headers for edit</string>
+    <string name="default_signature">"Best regards!
+Posted using Hotdoged on Android"</string>
+    <string name="default_system_name">Yet another Android point</string>
+    <string name="delete_items_older_then">Delete messages older then (days, can be overriden)</string>
+    <string name="delete_items_older_then1">Delete messages older then</string>
+    <string name="descending_order">Descending order</string>
+    <string name="description">Description</string>
+    <string name="dont_have_point">"If you don't have a point address in Fidonet network, but would like to join and use it absolutely free of charge, you can request a point."</string>
+    <string name="dont_pack_echomail">"Don't pack echomail"</string>
+    <string name="dont_pack_echomail_in_zip">"Don't pack echomail into ZIP archive"</string>
+    <string name="email">"E-mail, where to send the response. Please use existing address: "</string>
+    <string name="emailRequestText" formatted="false">"Hello, %s.
+
+This is an automatically generated FTN point request, it was sent via HotdogEd.
+
+Please assign me a point address at your node %s. My info:
+
+Name: %s
+Password: %s
+Contact e-mail: %s
+Additional info: %s
+
+Please respond to this e-mail to let me know of your decision and the point address you assigned to me.
+Thank you!"</string>
+    <string name="email_hint">smith@mail.com</string>
+    <string name="empty" />
+    <string name="enter_boss_address">Enter boss node 3D address, Z:Net/Node</string>
+    <string name="enter_ftn_domain">FTN Domain (without @)</string>
+    <string name="enter_new_areas">Enter new areas you would like to subscribe, one area per line.</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_point_address">Enter your 4D point address, Z:Net/Node.Point</string>
+    <string name="filter">Filter...</string>
+    <string name="ftn_domain">FTN Domain</string>
+    <string name="ftn_system_name">FTN system name</string>
+    <string name="have_point_address">Have point address</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="john_smith">John Smith</string>
+    <string name="manage_subscription">Manage subscription</string>
+    <string name="message_quoting">Message quoting</string>
+    <string name="messages_to_keep">Messages to keep (per echo, can be overriden)</string>
+    <string name="messages_to_keep1">Messages to keep</string>
+    <string name="name_and_lst_name">Name and last name in English, i.e. John Smith:</string>
+    <string name="new_to_fidonet">If you are new to Fidonet, please read some info about this network.</string>
+    <string name="nodes_config_url">https://raw.githubusercontent.com/propush/hdpntreqlist/master/nodes.xml</string>
+    <string name="note_from_sysop">Note from system operator:</string>
+    <string name="ok">OK</string>
+    <string name="only_active_node_syncs">Only active node will be syncronised</string>
+    <string name="origin">Origin</string>
+    <string name="other_areas">Other areas</string>
+    <string name="password">Password (*)</string>
+    <string name="password_for_fidonet">Password for fidonet. Please, use only letters a-z, A-Z and digits 0-9 (for compatibility reasons). Maximum allowed length is 8 characters:</string>
+    <string name="pref_header_general">General</string>
+    <string name="purge_period">Purge period</string>
+    <string name="purge_read_articles">Purge read articles</string>
+    <string name="request_point">Request point</string>
+    <string name="select_nearest_country_and_city">Please select the nearest country and city. You are free to connect to any node, but you may enjoy some region-specific echoes that are available only at your location.</string>
+    <string name="signature">Signature</string>
+    <string name="sort_order">Sort order</string>
+    <string name="submit_request">Submit request</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribed_first">Subscribed first</string>
+    <string name="synchronize">Synchronize</string>
+    <string name="tcp_port_for_incoming">TCP-port for incoming connections</string>
+    <string name="title_activity_about_fidonet">About fidonet</string>
+    <string name="title_activity_add_server">Fidonet Point Configuration</string>
+    <string name="title_activity_configure">FTN configuration</string>
+    <string name="title_activity_configure_echo">Configure echo</string>
+    <string name="title_activity_configure_server">FTN settings</string>
+    <string name="title_activity_echoes_subscribe">Subscribe to echoes</string>
+    <string name="title_activity_log">Synchronization log</string>
+    <string name="title_activity_message" />
+    <string name="title_activity_request_location">Select nearest location</string>
+    <string name="title_activity_request_point">Request fidonet point</string>
+    <string name="title_activity_subscribe">SubscribeActivity</string>
+    <string name="your_city">Your city:</string>
+    <string name="your_name">Your name (*)</string>
+    <string name="your_name1">Your name</string>
+    <string name="your_point_address">Your 4D FTN address (*)</string>
+</resources>
