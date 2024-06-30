@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="right"
+    android:id="@id/rlTop"
+    android:padding="@dimen/dim5px"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@id/checkBoxGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="long.group.name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        android:layout_below="@id/checkBoxGroupName" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:id="@id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dim10px"
+        android:text="very long description, really long very very"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/checkBoxGroupName"
+        android:layout_alignBaseline="@id/checkBoxGroupName"
+        android:layout_alignBottom="@id/checkBoxGroupName"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewLastMessage"
+        android:paddingLeft="@dimen/dim5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:layout_alignBaseline="@id/textViewTotal"
+        android:layout_alignRight="@id/textViewDescription"
+        android:layout_alignBottom="@id/textViewTotal" />
+</RelativeLayout>

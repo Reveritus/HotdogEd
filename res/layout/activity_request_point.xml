@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@id/spinnerNode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:id="@id/textViewNote"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:text="@string/note_from_sysop"
+            android:layout_below="@id/spinnerNode" />
+        <TextView
+            android:id="@id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_and_lst_name"
+            android:layout_below="@id/textViewNote" />
+        <EditText
+            android:id="@id/editTextName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/john_smith"
+            android:ems="10"
+            android:layout_below="@id/textView1"
+            android:layout_alignLeft="@id/textView1"
+            android:inputType="textPersonName">
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:id="@id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_below="@id/editTextName"
+            android:layout_alignLeft="@id/editTextName" />
+        <EditText
+            android:id="@id/editTextEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:ems="10"
+            android:layout_below="@id/textView2"
+            android:layout_alignLeft="@id/textView2"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password_for_fidonet"
+            android:layout_below="@id/editTextEmail"
+            android:layout_alignLeft="@id/editTextEmail" />
+        <EditText
+            android:id="@id/editTextPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="8"
+            android:layout_below="@id/textView3"
+            android:layout_alignLeft="@id/textView3"
+            android:inputType="textPassword" />
+        <EditText
+            android:gravity="center|left|top"
+            android:id="@id/editTextAboutYourself"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:hint="@string/about_hint"
+            android:ems="10"
+            android:layout_below="@id/editTextPassword"
+            android:layout_alignLeft="@id/editTextPassword"
+            android:inputType="textMultiLine" />
+        <Button
+            android:id="@id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_request"
+            android:layout_below="@id/editTextAboutYourself"
+            android:layout_centerHorizontal="true"
+            style="?android:buttonStyleSmall" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/imageViewRequestBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.0dip"
+        android:src="@android:drawable/btn_star_big_on"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:maxLines="1"
+        android:layout_below="@id/textViewNodeInfo"
+        android:layout_alignLeft="@id/textViewNodeInfo" />
+    <ImageView
+        android:id="@id/imageViewAreas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.0dip"
+        android:src="@android:drawable/presence_online"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_below="@id/imageViewRequestBy"
+        android:layout_alignLeft="@id/imageViewRequestBy"
+        android:layout_alignRight="@id/imageViewRequestBy" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewNodeInfoExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:maxLines="1"
+        android:layout_below="@id/textViewLocation"
+        android:layout_alignLeft="@id/textViewLocation" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@id/textViewNodeInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/imageViewAreas"
+        android:layout_alignTop="@id/imageViewRequestBy"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

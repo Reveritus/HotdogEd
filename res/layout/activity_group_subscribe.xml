@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0">
+        <ListView
+            android:id="@id/listViewGroups"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFilter"
+            android:layout_alignParentLeft="true" />
+        <EditText
+            android:id="@id/editTextFilter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/filter"
+            android:ems="10"
+            android:inputType="textFilter">
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+    <EditText
+        android:gravity="center|left|top"
+        android:layout_gravity="left"
+        android:id="@id/editTextNewAreas"
+        android:background="@drawable/backborder"
+        android:padding="@dimen/dim5px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hint="@string/enter_new_areas"
+        android:ems="10"
+        android:layout_weight="4.0"
+        android:inputType="textMultiLine" />
+</LinearLayout>
