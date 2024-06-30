@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/active_node"
+        android:key="server_active"
+        android:summary="@string/only_active_node_syncs"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/boss_address"
+        android:key="server_name"
+        android:summary="@string/enter_boss_address"
+        android:defaultValue="@string/empty"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/ftn_domain"
+        android:key="domain"
+        android:summary="@string/enter_ftn_domain"
+        android:defaultValue="@string/empty"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/boss_ip_address"
+        android:key="server_ip"
+        android:defaultValue="@string/empty"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/areas_description_url"
+        android:key="areasurl"
+        android:inputType="textMultiLine" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/your_name"
+        android:key="user_name"
+        android:defaultValue="@string/empty"
+        android:inputType="textFilter" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/your_point_address"
+        android:key="user_address"
+        android:summary="@string/enter_your_point_address"
+        android:defaultValue="@string/empty"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:maxLength="8"
+        android:title="@string/password"
+        android:key="server_password"
+        android:summary="@string/enter_your_password"
+        android:defaultValue="@string/empty"
+        android:inputType="textPassword" />
+    <EditTextPreference
+        android:singleLine="false"
+        android:selectAllOnFocus="true"
+        android:title="@string/signature"
+        android:key="signature"
+        android:defaultValue="@string/default_signature"
+        android:inputType="textMultiLine" />
+    <EditTextPreference
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/ftn_system_name"
+        android:key="server_description"
+        android:defaultValue="@string/default_system_name"
+        android:inputType="textMultiLine" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/origin"
+        android:key="origin"
+        android:defaultValue="@string/empty"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:singleLine="false"
+        android:selectAllOnFocus="true"
+        android:title="@string/custom_headers_for_edit"
+        android:key="custom_headers"
+        android:defaultValue="@string/empty"
+        android:inputType="textMultiLine" />
+    <CheckBoxPreference
+        android:title="@string/dont_pack_echomail"
+        android:key="add_int_01"
+        android:summary="@string/dont_pack_echomail_in_zip"
+        android:defaultValue="false" />
+    <ListPreference
+        android:entries="@array/pref_codepages"
+        android:title="@string/codepage"
+        android:key="server_codepage"
+        android:defaultValue="Cp866"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_codepages" />
+    <ListPreference
+        android:entries="@array/pref_formatting"
+        android:title="@string/message_quoting"
+        android:key="server_quoting"
+        android:defaultValue="FTN"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_formatting" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/messages_to_keep"
+        android:key="keep_msg_amount_per_group"
+        android:defaultValue="200"
+        android:inputType="numberDecimal" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/delete_items_older_then"
+        android:key="keep_msg_days_per_group"
+        android:defaultValue="30"
+        android:inputType="numberDecimal" />
+    <CheckBoxPreference
+        android:enabled="false"
+        android:title="@string/allow_incoming_connections"
+        android:key="add_int_02"
+        android:summary="@string/allow_incoming_connections"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/tcp_port_for_incoming"
+        android:key="add_info_01"
+        android:dependency="add_int_02"
+        android:defaultValue="24554"
+        android:inputType="numberDecimal" />
+</PreferenceScreen>
