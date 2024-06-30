@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/hdToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        layout="@layout/hd_toolbar" />
+    <RelativeLayout
+        android:paddingLeft="@dimen/dim5px"
+        android:paddingTop="@dimen/dim5px"
+        android:paddingRight="@dimen/dim5px"
+        android:paddingBottom="@dimen/dim5px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hdToolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:id="@id/editTextFilter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/group_filter"
+            android:ems="10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:inputType="textEmailAddress" />
+        <ListView
+            android:id="@id/listViewGroups"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/spinnerServer" />
+        <Spinner
+            android:id="@id/spinnerServer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFilter"
+            android:layout_alignLeft="@id/editTextFilter" />
+    </RelativeLayout>
+</RelativeLayout>

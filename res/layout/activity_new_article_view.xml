@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/hdToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        layout="@layout/hd_toolbar" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dim5px"
+        android:layout_marginRight="@dimen/dim5px"
+        android:layout_below="@id/hdToolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:id="@id/layout1"
+            android:background="@color/backgray1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dim5px">
+            <TextView
+                android:id="@id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from" />
+            <TextView
+                android:id="@id/textViewFromName"
+                android:paddingLeft="@dimen/dim5px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fromName"
+                android:layout_toRightOf="@id/textView1"
+                android:layout_alignBaseline="@id/textView1" />
+            <TextView
+                android:id="@id/textViewFromAddr"
+                android:paddingLeft="@dimen/dim10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fromAddr"
+                android:layout_toRightOf="@id/textViewFromName"
+                android:layout_alignBaseline="@id/textViewFromName" />
+            <TextView
+                android:id="@id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:layout_below="@id/textView1" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@id/textViewChangeToName"
+                android:background="@color/black"
+                android:paddingLeft="@dimen/dim2px"
+                android:paddingRight="@dimen/dim2px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim5px"
+                android:text="..."
+                android:maxLines="@integer/one"
+                android:lines="@integer/one"
+                android:layout_toRightOf="@id/textView2"
+                android:layout_alignBaseline="@id/textView2" />
+            <TextView
+                android:id="@id/textViewToName"
+                android:paddingLeft="@dimen/dim5px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toName"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/textViewChangeToName"
+                android:layout_alignBaseline="@id/textViewChangeToName" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@id/textViewChangeToAddr"
+                android:background="@color/black"
+                android:paddingLeft="@dimen/dim2px"
+                android:paddingRight="@dimen/dim2px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim10px"
+                android:text="..."
+                android:maxLines="@integer/one"
+                android:lines="@integer/one"
+                android:layout_toRightOf="@id/textViewToName"
+                android:layout_alignBaseline="@id/textViewToName" />
+            <TextView
+                android:id="@id/textViewToAddr"
+                android:paddingLeft="@dimen/dim5px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="toAddr"
+                android:layout_toLeftOf="@id/textViewAB"
+                android:layout_toRightOf="@id/textViewChangeToAddr"
+                android:layout_alignBaseline="@id/textViewChangeToAddr" />
+            <TextView
+                android:id="@id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subject"
+                android:layout_below="@id/textView2" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@id/textViewChangeSubject"
+                android:background="@color/black"
+                android:paddingLeft="@dimen/dim2px"
+                android:paddingRight="@dimen/dim2px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim5px"
+                android:text="..."
+                android:maxLines="@integer/one"
+                android:lines="@integer/one"
+                android:layout_toRightOf="@id/textView3"
+                android:layout_alignBaseline="@id/textView3" />
+            <TextView
+                android:id="@id/textViewSubject"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim5px"
+                android:text="Subject"
+                android:maxLines="@integer/one"
+                android:layout_toRightOf="@id/textViewChangeSubject"
+                android:layout_alignBaseline="@id/textViewChangeSubject" />
+            <TextView
+                android:id="@id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/group"
+                android:layout_below="@id/textView3"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@id/textViewChangeGroup"
+                android:background="@color/black"
+                android:paddingLeft="@dimen/dim2px"
+                android:paddingRight="@dimen/dim2px"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim5px"
+                android:text="..."
+                android:maxLines="@integer/one"
+                android:lines="@integer/one"
+                android:layout_toRightOf="@id/textView4"
+                android:layout_below="@id/textView3" />
+            <TextView
+                android:id="@id/textViewGroup"
+                android:paddingLeft="@dimen/dim5px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_toRightOf="@id/textViewChangeGroup"
+                android:layout_alignBaseline="@id/textView4"
+                android:layout_alignBottom="@id/textView4" />
+            <TextView
+                android:id="@id/textViewAB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:layout_alignBaseline="@id/textViewToAddr"
+                android:layout_alignBottom="@id/textViewToAddr"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ListView
+            android:id="@id/listViewParts"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout1" />
+    </RelativeLayout>
+</RelativeLayout>

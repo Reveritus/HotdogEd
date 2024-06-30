@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/hdToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        layout="@layout/hd_toolbar" />
+    <RelativeLayout
+        android:id="@id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hdToolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:id="@id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_provider"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <ListView
+            android:id="@id/listViewProviders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_alignParentLeft="true" />
+        <RelativeLayout
+            android:id="@id/rLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listViewProviders"
+            android:layout_alignParentLeft="true">
+            <TextView
+                android:id="@id/tvUploadMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:text="@string/select_upload_method"
+                android:layout_alignParentLeft="true" />
+            <Spinner
+                android:id="@id/spUploadType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/buttonSetupHosts"
+                android:layout_below="@id/tvUploadMethod" />
+            <Button
+                android:id="@id/buttonSetupHosts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:layout_below="@id/tvUploadMethod"
+                android:layout_alignBaseline="@id/spUploadType"
+                android:layout_alignParentRight="true"
+                style="?android:buttonStyleSmall" />
+        </RelativeLayout>
+        <ScrollView
+            android:id="@id/sv2"
+            android:background="@drawable/backborder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listViewProviders"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true">
+            <EditText
+                android:id="@id/editTextShared"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="some text"
+                android:minLines="2">
+                <requestFocus />
+            </EditText>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

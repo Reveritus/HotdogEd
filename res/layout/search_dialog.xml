@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/hdToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        layout="@layout/hd_toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dim14sp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hdToolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:id="@id/textView9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_search_text" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@id/imageButtonSearch"
+                android:background="@android:drawable/ic_menu_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+            <EditText
+                android:id="@id/editTextSearchText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:ems="10"
+                android:layout_toLeftOf="@id/imageButtonSearch"
+                android:layout_alignBaseline="@id/imageButtonSearch"
+                android:inputType="text" />
+        </RelativeLayout>
+        <TextView
+            android:id="@id/textView10"
+            android:paddingTop="@dimen/dim14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_fields" />
+        <CheckBox
+            android:id="@id/checkBoxSearchFrom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_from" />
+        <CheckBox
+            android:id="@id/checkBoxSearchTo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_to" />
+        <CheckBox
+            android:id="@id/checkBoxSearchSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_subject" />
+        <CheckBox
+            android:id="@id/checkBoxSearchArticle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/search_article_carefull" />
+        <TextView
+            android:id="@id/textView13"
+            android:paddingTop="@dimen/dim14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/extra_parameters" />
+        <CheckBox
+            android:id="@id/checkBoxSearchCaseInsensitive"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/case_insensitive" />
+        <CheckBox
+            android:id="@id/checkBoxSearchCurrentGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_current_group" />
+        <CheckBox
+            android:id="@id/checkBoxSearchIncludeSpecial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_special_groups" />
+        <CheckBox
+            android:id="@id/checkBoxSaveAsGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/save_as_virtual_group" />
+        <CheckBox
+            android:id="@id/checkBoxAddMoreConditions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/add_more_conditions" />
+    </LinearLayout>
+</RelativeLayout>

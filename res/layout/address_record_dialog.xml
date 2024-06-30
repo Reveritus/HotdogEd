@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/dim10px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@id/editTextName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:inputType="textPersonName">
+        <requestFocus
+            android:layout_width="wrap_content" />
+    </EditText>
+    <EditText
+        android:id="@id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:inputType="textEmailAddress" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_below="@id/editTextEmail"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/llSub1"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <Button
+                android:id="@id/buttonEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:text="@string/email"
+                android:lines="@integer/one"
+                android:drawableLeft="@android:drawable/ic_menu_send"
+                android:layout_weight="1.0"
+                style="?android:buttonStyle" />
+            <Button
+                android:id="@id/buttonDelete"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:text="@string/delete"
+                android:lines="@integer/one"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:layout_weight="1.0"
+                style="?android:buttonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/llSub2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <Button
+                android:id="@id/buttonMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:text="@string/message"
+                android:lines="@integer/one"
+                android:drawableLeft="@android:drawable/ic_dialog_email"
+                android:layout_weight="1.0"
+                style="?android:buttonStyle" />
+            <Button
+                android:id="@id/buttonDiscard"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:text="@string/cancel"
+                android:lines="@integer/one"
+                android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+                android:layout_weight="1.0"
+                style="?android:buttonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

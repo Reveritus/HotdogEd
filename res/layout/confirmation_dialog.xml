@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center|left|top"
+        android:id="@id/textViewComment"
+        android:padding="@dimen/dim10px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:paddingTop="@dimen/dim10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewComment"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+        <Button
+            android:id="@id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</RelativeLayout>

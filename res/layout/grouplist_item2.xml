@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="right"
+    android:id="@id/rlTop"
+    android:padding="@dimen/dim5px"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@id/textViewGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="long.group.name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewUnsent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slash"
+        android:layout_toRightOf="@id/textViewTotal"
+        android:layout_below="@id/textViewGroupName" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewUnread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        android:layout_toRightOf="@id/textViewUnsent"
+        android:layout_alignBaseline="@id/textViewUnsent"
+        android:layout_alignBottom="@id/textViewUnsent" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textView2"
+        android:paddingLeft="@dimen/dim10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_message"
+        android:layout_toLeftOf="@id/textViewLastMessage"
+        android:layout_alignBaseline="@id/textViewNewMsgs"
+        android:layout_alignBottom="@id/textViewNewMsgs" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewTU"
+        android:paddingLeft="@dimen/dim10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_u"
+        android:layout_below="@id/textViewGroupName"
+        android:layout_alignLeft="@id/textViewGroupName" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        android:layout_toRightOf="@id/textViewTU"
+        android:layout_below="@id/textViewGroupName" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textColor="#ffff0000"
+        android:id="@id/textViewNewMsgs"
+        android:paddingLeft="@dimen/dim5px"
+        android:paddingRight="@dimen/dim5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(+10000)"
+        android:layout_toRightOf="@id/textViewUnread"
+        android:layout_alignBaseline="@id/textViewUnread"
+        android:layout_alignBottom="@id/textViewUnread" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:id="@id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dim10px"
+        android:text="very long description, really long very very"
+        android:maxLines="@integer/one"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/textViewGroupName"
+        android:layout_alignBaseline="@id/textViewGroupName"
+        android:layout_alignBottom="@id/textViewGroupName"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@id/textViewLastMessage"
+        android:paddingLeft="@dimen/dim5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/n_a"
+        android:layout_alignBaseline="@id/textViewNewMsgs"
+        android:layout_alignRight="@id/textViewDescription"
+        android:layout_alignBottom="@id/textViewNewMsgs" />
+</RelativeLayout>

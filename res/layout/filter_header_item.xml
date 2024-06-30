@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/rlTop"
+    android:background="@drawable/backborder"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/imageButtonEdit"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:id="@id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:maxLines="1"
+            android:lines="1"
+            android:layout_below="@id/tvFilterName"
+            android:layout_alignLeft="@id/tvFilterName" />
+        <TextView
+            android:id="@id/tvFilterName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:maxLines="1"
+            android:lines="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/imageButtonDelete"
+        android:background="@android:drawable/ic_menu_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/imageButtonEdit"
+        android:background="@android:drawable/ic_menu_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageButtonDelete"
+        android:layout_alignBottom="@id/imageButtonDelete"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

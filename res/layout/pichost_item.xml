@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@id/textViewHostUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_toLeftOf="@id/buttonUp"
+        android:layout_alignBaseline="@id/buttonUp"
+        android:layout_alignBottom="@id/buttonUp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/imageButtonDelete"
+        android:background="@android:drawable/ic_menu_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <ImageButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/imageButtonEdit"
+        android:background="@android:drawable/ic_menu_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageButtonDelete"
+        android:layout_alignBottom="@id/imageButtonDelete" />
+    <Button
+        android:id="@id/buttonDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dn"
+        android:layout_toLeftOf="@id/imageButtonEdit"
+        android:layout_alignBottom="@id/imageButtonEdit"
+        style="?android:buttonStyleSmall" />
+    <Button
+        android:id="@id/buttonUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/up"
+        android:layout_toLeftOf="@id/buttonDown"
+        android:layout_alignBottom="@id/buttonDown"
+        style="?android:buttonStyleSmall" />
+</RelativeLayout>

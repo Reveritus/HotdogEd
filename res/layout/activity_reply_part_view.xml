@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/hdToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        layout="@layout/hd_toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/LinearLayout2"
+        android:background="@drawable/backborder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hdToolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:id="@id/layoutQuote"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="3.0">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@id/textView1"
+                android:background="@color/backselected"
+                android:paddingLeft="@dimen/dim10px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/replying_to"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+            <EditText
+                android:textAppearance="?android:textAppearanceSmall"
+                android:typeface="monospace"
+                android:gravity="center|left|top"
+                android:id="@id/editTextQuote"
+                android:background="@color/backgray1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="10"
+                android:layout_below="@id/textView1"
+                android:layout_alignParentLeft="true"
+                android:inputType="textCapSentences|textMultiLine" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="5.0">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@id/textView2"
+                android:background="@color/backselected"
+                android:paddingLeft="@dimen/dim10px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_reply"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+            <EditText
+                android:typeface="monospace"
+                android:gravity="center|left|top"
+                android:id="@id/editTextReply"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:ems="10"
+                android:selectAllOnFocus="true"
+                android:layout_below="@id/textView2"
+                android:layout_alignParentLeft="true"
+                android:inputType="textCapSentences|textMultiLine">
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

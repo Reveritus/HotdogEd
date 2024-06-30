@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:id="@id/textViewServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:maxLines="@integer/two" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_gravity="start"
+            android:id="@id/textViewCategory"
+            android:paddingLeft="@dimen/dim10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:maxLines="@integer/one" />
+    </LinearLayout>
+    <RelativeLayout
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Spinner
+            android:id="@id/spinnerInterval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100.0px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

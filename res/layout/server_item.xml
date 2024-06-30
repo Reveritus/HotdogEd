@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/textViewServerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@id/textViewGroups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groups"
+        android:layout_below="@id/textViewServerDescription"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@id/textViewGroupCount"
+        android:paddingLeft="@dimen/dim5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_toRightOf="@id/textViewGroups"
+        android:layout_below="@id/textViewServerDescription" />
+    <TextView
+        android:id="@id/textViewServerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@id/textViewServerName"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:textColor="#ffff0000"
+        android:id="@id/textViewUnsent"
+        android:paddingLeft="@dimen/dim10px"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_toRightOf="@id/textViewGroupCount"
+        android:layout_alignBaseline="@id/textViewGroupCount"
+        android:layout_alignBottom="@id/textViewGroupCount" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textColor="#ffff0000"
+        android:id="@id/textViewNewMsgs"
+        android:paddingLeft="@dimen/dim5px"
+        android:paddingRight="@dimen/dim5px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(+10000)"
+        android:layout_toRightOf="@id/textViewServerName"
+        android:layout_alignBaseline="@id/textViewServerName"
+        android:layout_alignParentTop="false" />
+</RelativeLayout>

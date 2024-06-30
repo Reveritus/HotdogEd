@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@id/llTop"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/llSubTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/buttonMessage"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:ellipsize="marquee"
+            android:id="@id/textViewName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim5px"
+            android:layout_marginRight="@dimen/dim10px"
+            android:text="Name"
+            android:lines="@integer/one" />
+        <TextView
+            android:ellipsize="marquee"
+            android:linksClickable="false"
+            android:id="@id/textViewAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim5px"
+            android:text="Address"
+            android:lines="@integer/one"
+            android:scrollHorizontally="true" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:id="@id/textViewAddInfo01"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim5px"
+            android:text="Small Text" />
+    </LinearLayout>
+    <Button
+        android:id="@id/buttonMessage"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:layout_alignBottom="@id/llSubTop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        style="?android:buttonStyleSmall" />
+</RelativeLayout>

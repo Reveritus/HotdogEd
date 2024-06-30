@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:gravity="right"
+        android:fitsSystemWindows="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ToggleButton
+            android:id="@id/toggleButtonNotifySound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/snd"
+            android:textOff="@string/snd"
+            android:minWidth="@dimen/action_button_min_width"
+            android:text="ToggleButton"
+            android:lines="@integer/one"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <ToggleButton
+            android:id="@id/toggleButtonNotifyVibro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/vibro"
+            android:textOff="@string/vibro"
+            android:minWidth="@dimen/action_button_min_width"
+            android:text="ToggleButton"
+            android:lines="@integer/one"
+            android:layout_toRightOf="@id/toggleButtonNotifySound"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:id="@id/textViewGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Very long line of text to wrap, really very long line"
+            android:maxLines="@integer/two" />
+        <TextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_gravity="start"
+            android:id="@id/textViewServer"
+            android:paddingLeft="@dimen/dim10px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:maxLines="@integer/two" />
+    </LinearLayout>
+</LinearLayout>

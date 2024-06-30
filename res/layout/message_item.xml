@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/rlTop"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/green"
+        android:id="@id/textViewRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim2px"
+        android:layout_marginRight="@dimen/dim5px"
+        android:text="@string/asterisk"
+        android:layout_above="@id/textViewAuthor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="serif"
+        android:ellipsize="middle"
+        android:id="@id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0px"
+        android:layout_marginRight="5.0px"
+        android:text="00"
+        android:maxLines="@integer/one"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="serif"
+        android:ellipsize="middle"
+        android:id="@id/textViewSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:maxLines="@integer/one"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/textViewDate"
+        android:layout_toRightOf="@id/textViewScore"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="monospace"
+        android:id="@id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim5px"
+        android:text="Date"
+        android:maxLines="@integer/one"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/textViewRead"
+        android:layout_alignBaseline="@id/textViewSubject"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:typeface="monospace"
+        android:ellipsize="end"
+        android:id="@id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:maxLines="@integer/one"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/textViewStarred"
+        android:layout_below="@id/textViewSubject"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/yellow"
+        android:id="@id/textViewStarred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asterisk"
+        android:layout_below="@id/textViewRead"
+        android:layout_alignRight="@id/textViewRead" />
+</RelativeLayout>

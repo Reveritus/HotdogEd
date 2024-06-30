@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scrollViewContents"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@id/rlHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:typeface="monospace"
+                android:id="@id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+            <TextView
+                android:typeface="monospace"
+                android:id="@id/textViewFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:layout_below="@id/textViewDate"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:typeface="monospace"
+                android:id="@id/textViewTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:layout_below="@id/textViewFrom"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:typeface="monospace"
+                android:autoLink="all"
+                android:id="@id/textViewSubj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subj"
+                android:layout_below="@id/textViewTo"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:typeface="monospace"
+                android:id="@id/textViewArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/groups"
+                android:layout_below="@id/textViewSubj"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:textAppearance="?android:textAppearanceSmall"
+                android:id="@id/textViewStarred"
+                android:background="@android:drawable/btn_star_big_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.pushkin.hotdoged.v.QuotedTextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:typeface="monospace"
+            android:textColor="@color/black"
+            android:id="@id/textViewBody"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/rlHeader" />
+    </RelativeLayout>
+</ScrollView>
