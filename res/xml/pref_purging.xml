@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/pref_list_purge_periods"
+        android:title="@string/purge_period"
+        android:key="purge_period"
+        android:defaultValue="12"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_purge_periods_values" />
+</PreferenceScreen>

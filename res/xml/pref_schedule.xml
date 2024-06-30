@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/enable_schedule"
+        android:key="schedule_enabled"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:title="@string/retry_interval"
+        android:key="retry_interval"
+        android:defaultValue="10" />
+    <Preference
+        android:title="@string/setup_schedule"
+        android:key="setup_schedule"
+        android:dependency="schedule_enabled">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pushkin.hotdoged.v.ScheduleActivity" />
+    </Preference>
+</PreferenceScreen>

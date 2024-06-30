@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/enable_new_messages_notification"
+        android:key="notifications_enabled"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="@string/led_notification"
+        android:key="notifications_led"
+        android:dependency="notifications_enabled"
+        android:defaultValue="true" />
+    <ListPreference
+        android:entries="@array/pref_list_notification_led_colors"
+        android:title="@string/led_color"
+        android:key="notifications_led_color"
+        android:dependency="notifications_led"
+        android:defaultValue="0000ff"
+        android:entryValues="@array/pref_list_notification_led_colors_values" />
+    <Preference
+        android:title="@string/setup_notifications"
+        android:key="setup_notifications"
+        android:dependency="notifications_enabled">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pushkin.hotdoged.v.NotificationsActivity" />
+    </Preference>
+</PreferenceScreen>

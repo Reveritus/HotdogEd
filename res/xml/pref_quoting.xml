@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/pref_list_overquoting_action"
+        android:title="@string/overquoting_action"
+        android:key="overquoting_action"
+        android:defaultValue="1"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_overquoting_action_values" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/overquoting_level_threshold"
+        android:key="overquoting_level_threshold"
+        android:defaultValue="4"
+        android:inputType="numberDecimal" />
+    <CheckBoxPreference
+        android:title="@string/wrap_long_subjects"
+        android:key="check_subject_size"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/wrap_nntp_quoting_text_on_save"
+        android:key="nntp_edit_wrap_quoting"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/nntp_quoting_line_size"
+        android:key="nntp_wrap_line_size"
+        android:dependency="nntp_edit_wrap_quoting"
+        android:defaultValue="72"
+        android:inputType="numberDecimal" />
+    <CheckBoxPreference
+        android:title="@string/wrap_nntp_unquoted_text"
+        android:key="nntp_wrap_unquoted"
+        android:dependency="nntp_edit_wrap_quoting"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/wrap_ftn_quoting_text_on_save"
+        android:key="ftn_edit_wrap_quoting"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/ftn_quoting_line_size"
+        android:key="ftn_wrap_line_size"
+        android:dependency="ftn_edit_wrap_quoting"
+        android:defaultValue="72"
+        android:inputType="numberDecimal" />
+    <CheckBoxPreference
+        android:title="@string/wrap_ftn_unquoted_text"
+        android:key="ftn_wrap_unquoted"
+        android:dependency="ftn_edit_wrap_quoting"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="@string/show_images"
+        android:key="show_inline_images"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/load_images_on_3g"
+        android:key="load_images_on_3g"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/process_uue"
+        android:key="process_uue"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/markdown_extensions"
+        android:key="markdown_extensions"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/ftn_address_info"
+        android:key="ftn_info"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/the_default_ghi_url"
+        android:key="fghi_url"
+        android:defaultValue="@string/default_fghi_url" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/nodehist_url"
+        android:key="nodehist_url"
+        android:defaultValue="@string/default_nodehist_url" />
+    <Preference
+        android:title="@string/setup_pichosting"
+        android:key="setup_pichosting">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pushkin.hotdoged.v.pichosting.EditPicHostsActivity" />
+    </Preference>
+    <CheckBoxPreference
+        android:title="@string/enable_scoring"
+        android:key="scoring_enabled"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/skip_negative_scored_messages"
+        android:key="scoring_skip_negative"
+        android:dependency="scoring_enabled"
+        android:defaultValue="true" />
+    <ListPreference
+        android:entries="@array/pref_list_scoring_unread_action"
+        android:title="@string/unread_negative_scoring_action"
+        android:key="scoring_unread_action"
+        android:dependency="scoring_enabled"
+        android:defaultValue="1"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_scoring_unread_action_values" />
+    <Preference
+        android:title="@string/setup_scoring"
+        android:key="setup_scoring"
+        android:dependency="scoring_enabled">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:data="scores"
+            android:targetClass="com.pushkin.hotdoged.v.Filter.ActivityFilterList" />
+    </Preference>
+    <Preference
+        android:title="@string/setup_virtual_groups"
+        android:key="setup_virtual_groups">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:data="groups"
+            android:targetClass="com.pushkin.hotdoged.v.Filter.ActivityFilterList" />
+    </Preference>
+</PreferenceScreen>

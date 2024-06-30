@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/enable_daily_backup"
+        android:key="backup_enabled"
+        android:defaultValue="false" />
+    <Preference
+        android:title="@string/backup_now"
+        android:key="backup_now" />
+    <Preference
+        android:title="@string/restore_now"
+        android:key="restore_now">
+        <intent
+            android:targetPackage="com.pushkin.hotdoged"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pushkin.hotdoged.v.RestoreBackupActivity" />
+    </Preference>
+    <Preference
+        android:key="last_backup" />
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/volume_buttons_navigation"
+        android:key="navigate_volume_buttons"
+        android:defaultValue="true" />
+    <ListPreference
+        android:entries="@array/pref_list_navi_functions"
+        android:title="@string/volume_up_key_press"
+        android:key="volume_up_short_function"
+        android:dependency="navigate_volume_buttons"
+        android:defaultValue="1"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_navi_functions_values" />
+    <ListPreference
+        android:entries="@array/pref_list_navi_functions"
+        android:title="@string/volume_down_key_press"
+        android:key="volume_down_short_function"
+        android:dependency="navigate_volume_buttons"
+        android:defaultValue="0"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_navi_functions_values" />
+    <ListPreference
+        android:entries="@array/pref_list_navi_functions"
+        android:title="@string/volume_up_long_key_press"
+        android:key="volume_up_long_function"
+        android:dependency="navigate_volume_buttons"
+        android:defaultValue="8"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_navi_functions_values" />
+    <ListPreference
+        android:entries="@array/pref_list_navi_functions"
+        android:title="@string/volume_down_long_key_press"
+        android:key="volume_down_long_function"
+        android:dependency="navigate_volume_buttons"
+        android:defaultValue="9"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_navi_functions_values" />
+</PreferenceScreen>
