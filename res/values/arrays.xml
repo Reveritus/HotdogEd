@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_list_navi_functions">
+        <item>Prev article</item>
+        <item>Next article</item>
+        <item>Prev unread article</item>
+        <item>Next unread article</item>
+        <item>Prev thread</item>
+        <item>Next thread</item>
+        <item>Next unread thread</item>
+        <item>First article</item>
+        <item>Last article</item>
+        <item>First unread article</item>
+        <item>Last unread article</item>
+    </string-array>
+    <string-array name="pref_list_navi_functions_values">
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>2</item>
+        <item>5</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="pref_list_notification_led_colors">
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="pref_list_notification_led_colors_values">
+        <item>0000ff</item>
+        <item>ffff00</item>
+        <item>ff0000</item>
+        <item>00ff00</item>
+    </string-array>
+    <string-array name="pref_list_overquoting_action">
+        <item>None</item>
+        <item>Ask</item>
+        <item>Delete automatically</item>
+    </string-array>
+    <string-array name="pref_list_overquoting_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_list_purge_periods">
+        <item>On every sync</item>
+        <item>Never</item>
+        <item>Every 1 hour</item>
+        <item>Every 2 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Once per day</item>
+    </string-array>
+    <string-array name="pref_list_purge_periods_values">
+        <item>0</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="pref_list_scoring_unread_action">
+        <item>None</item>
+        <item>Ask</item>
+        <item>Mark read</item>
+    </string-array>
+    <string-array name="pref_list_scoring_unread_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="pref_list_textsizes">
+        <item>Smaller</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Larger</item>
+    </string-array>
+    <string-array name="pref_list_textsizes_values">
+        <item>10.0</item>
+        <item>14.0</item>
+        <item>18.0</item>
+        <item>22.0</item>
+        <item>26.0</item>
+    </string-array>
+    <string-array name="pref_list_themes">
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="pref_list_themes_values">
+        <item>white</item>
+        <item>black</item>
+        <item>blue</item>
+    </string-array>
+</resources>
