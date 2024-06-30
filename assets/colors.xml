@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+
+    <theme name="white">
+
+        <bgcolor1 value="#F7F7F7" />
+
+        <bgcolor2 value="#FCFCFC" />
+
+        <bgmessagecolor value="#FFFFFF" />
+
+        <fgmessagecolor value="#000000" />
+
+        <bgcolorsel value="#00CCFF" />
+
+        <fgcolorsel value="#000000" />
+
+        <fgcolorunsel value="#000000" />
+
+        <fgcolorunselpositive value="#00FF00" />
+
+        <fgcolorunselnegative value="#FF0000" />
+
+        <fgcolorselpositive value="#4D7F17" />
+
+        <fgcolorselnegative value="#FF0000" />
+
+        <fglinkcolor value="#0000EE" />
+
+        <quotedtextedit value="#FF0000FF,#9B0000FF,#370000FF" />
+
+        <quotedtextview value="#0000CC,#006633,#FF0000,#CC00CC" />
+    </theme>
+
+    <theme name="black">
+
+        <bgcolor1 value="#202020" />
+
+        <bgcolor2 value="#282828" />
+
+        <bgmessagecolor value="#000000" />
+
+        <fgmessagecolor value="#FFFFFF" />
+
+        <bgcolorsel value="#B0B0B0" />
+
+        <fgcolorsel value="#000000" />
+
+        <fgcolorunsel value="#FFFFFF" />
+
+        <fgcolorunselpositive value="#00FF00" />
+
+        <fgcolorunselnegative value="#FF0000" />
+
+        <fgcolorselpositive value="#4D7F17" />
+
+        <fgcolorselnegative value="#FF0000" />
+
+        <fglinkcolor value="#05C5CF" />
+
+        <quotedtextedit value="#FFFFD700,#9BFFD700,#55FFD700" />
+
+        <quotedtextview value="#5F9EA0,#32CD32,#DAA520,#6495ED" />
+    </theme>
+
+    <theme name="blue">
+
+        <bgcolor1 value="#1E00BB" />
+
+        <bgcolor2 value="#290AC7" />
+
+        <bgmessagecolor value="#1E00BB" />
+
+        <fgmessagecolor value="#FDFDFD" />
+
+        <bgcolorsel value="#B0B0B0" />
+
+        <fgcolorsel value="#1E00BB" />
+
+        <fgcolorunsel value="#FDFDFD" />
+
+        <fgcolorunselpositive value="#00FF00" />
+
+        <fgcolorunselnegative value="#FF0000" />
+
+        <fgcolorselpositive value="#4D7F17" />
+
+        <fgcolorselnegative value="#FF0000" />
+
+        <fglinkcolor value="#3BB8A4" />
+
+        <quotedtextedit value="#FFFFD700,#9BFFD700,#55FFD700" />
+
+        <quotedtextview value="#65F6FF,#B0ADE7" />
+    </theme>
+
+</colors>
