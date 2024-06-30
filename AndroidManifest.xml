@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest
+	android:versionCode="26"
+	android:versionName="2.13.5"
+	package="com.pushkin.hotdoged.fido"
+	platformBuildVersionCode="35"
+	platformBuildVersionName="15"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-sdk
+		android:minSdkVersion="10"
+		android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+	<uses-permission
+android:name="android.permission.INTERNET" />
+
+	<uses-permission	android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<uses-permission	android:name="android.permission.READ_PHONE_STATE" />
+	
+	<uses-permission	android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+	<application
+		android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+		android:label="@string/app_name"
+		android:icon="@drawable/ic_launcher"
+		android:allowBackup="true">
+		<service
+			android:label="FTN fetch service"
+			android:name="com.pushkin.hotdoged.fido.ContentFetchService">
+			<intent-filter>
+				<action
+					android:name="com.pushkin.hotdoged.fido.ContentFetchService" />
+			</intent-filter>
+		</service>
+		<receiver
+			android:name="com.pushkin.hotdoged.fido.StartBCReceiver"
+			android:enabled="true"
+			android:exported="true">
+			<intent-filter
+				android:label="com.pushkin.hotdoged.started">
+				<action
+					android:name="com.pushkin.hotdoged.started" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="com.pushkin.hotdoged.fido.BackupBroadcastReceiver"
+			android:enabled="true"
+			android:exported="true">
+			<intent-filter
+				android:label="com.pushkin.hotdoged.backup_now">
+				<action
+					android:name="com.pushkin.hotdoged.backup_now" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name="com.pushkin.hotdoged.fido.RestoreBroadcastReceiver"
+			android:enabled="true"
+			android:exported="true">
+			<intent-filter
+				android:label="com.pushkin.hotdoged.restore_now">
+				<action
+					android:name="com.pushkin.hotdoged.restore_now" />
+			</intent-filter>
+		</receiver>
+		<activity
+			android:label="@string/title_activity_echoes_subscribe"
+			android:name="com.pushkin.hotdoged.fido.SubscribeActivity">
+			<intent-filter>
+				<action
+					android:name="com.pushkin.hotdoged.fido.SubscribeActivity" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/title_activity_configure_server"
+			android:name="com.pushkin.hotdoged.fido.ConfigureServerActivity">
+			<intent-filter>
+				<action
+					android:name="com.pushkin.hotdoged.fido.ConfigureServerActivity" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/title_activity_configure_echo"
+			android:name="com.pushkin.hotdoged.fido.ConfigureGroupActivity">
+			<intent-filter>
+				<action
+					android:name="com.pushkin.hotdoged.fido.ConfigureGroupActivity" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/title_activity_log"
+			android:name="com.pushkin.hotdoged.fido.LogActivity" />
+		<activity
+			android:label="@string/title_activity_add_server"
+			android:name="com.pushkin.hotdoged.fido.AddServerActivity">
+			<intent-filter>
+				<action
+					android:name="com.pushkin.hotdoged.fido.AddServerActivity" />
+				<category
+					android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:label="@string/title_activity_about_fidonet"
+			android:name="com.pushkin.hotdoged.fido.AboutFidonetActivity" />
+		<activity
+			android:label="@string/title_activity_request_point"
+			android:name="com.pushkin.hotdoged.fido.RequestPointActivity" />
+		<activity
+			android:label="@string/title_activity_message"
+			android:name="com.pushkin.hotdoged.fido.MessageActivity" />
+		<activity
+			android:label="@string/title_activity_request_location"
+			android:name="com.pushkin.hotdoged.fido.RequestLocationActivity" />
+	</application>
+</manifest>
