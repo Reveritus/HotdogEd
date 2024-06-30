@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/pref_list_themes"
+        android:title="@string/theme"
+        android:key="theme"
+        android:defaultValue="white"
+        android:dialogTitle="@string/needs_restart"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_themes_values" />
+    <CheckBoxPreference
+        android:title="@string/show_starred_group"
+        android:key="show_starred"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/always_show_starred_articles"
+        android:key="always_show_starred_items"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="@string/show_group_descriptions"
+        android:key="show_group_desc"
+        android:defaultValue="true" />
+    <ListPreference
+        android:entries="@array/pref_list_textsizes"
+        android:title="@string/message_text_size"
+        android:key="textsize"
+        android:defaultValue="18.0"
+        android:dialogTitle="@string/choose_message_text_size"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_list_textsizes_values" />
+</PreferenceScreen>
