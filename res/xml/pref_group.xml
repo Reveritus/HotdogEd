@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/your_name1"
+        android:key="user_name"
+        android:defaultValue="@string/empty"
+        android:inputType="textFilter" />
+    <EditTextPreference
+        android:singleLine="false"
+        android:selectAllOnFocus="true"
+        android:title="@string/signature"
+        android:key="signature"
+        android:defaultValue="@string/empty"
+        android:inputType="textMultiLine" />
+    <EditTextPreference
+        android:singleLine="false"
+        android:selectAllOnFocus="true"
+        android:title="@string/custom_headers_for_edit"
+        android:key="custom_headers"
+        android:defaultValue="@string/empty"
+        android:inputType="textMultiLine" />
+    <ListPreference
+        android:entries="@array/pref_codepages"
+        android:title="@string/codepage"
+        android:key="server_codepage"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_codepages" />
+    <ListPreference
+        android:entries="@array/pref_formatting"
+        android:title="@string/message_quoting"
+        android:key="server_quoting"
+        android:positiveButtonText="@null"
+        android:negativeButtonText="@null"
+        android:entryValues="@array/pref_formatting" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/messages_to_keep1"
+        android:key="keep_msg_amount_per_group"
+        android:inputType="numberDecimal" />
+    <EditTextPreference
+        android:maxLines="1"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:title="@string/delete_items_older_then1"
+        android:key="keep_msg_days_per_group"
+        android:inputType="numberDecimal" />
+    <CheckBoxPreference
+        android:title="@string/purge_read_articles"
+        android:key="purge_read"
+        android:summary="@string/articles_read_will_be_deleted"
+        android:defaultValue="true" />
+</PreferenceScreen>
