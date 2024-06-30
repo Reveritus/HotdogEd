@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.pushkin.hotdoged"
+    platformBuildVersionCode="25"
+    platformBuildVersionName="7.1.1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_LOGS" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <android:uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:allowBackup="true">
+        <meta-data
+            android:name="com.samsung.android.sdk.multiwindow.enable"
+            android:value="true" />
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false" />
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="android.intent.category.MULTIWINDOW_LAUNCHER"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.intent.category.MULTIWINDOW_LAUNCHER"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632.0dip" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598.0dip" />
+        <provider
+            android:name="com.pushkin.hotdoged.db.DBDataProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:authorities="com.pushkin.hotdoged.provider" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.pushkin.hotdoged.file_provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <activity
+            android:label="@string/title_activity_hotdoged_start"
+            android:name="com.pushkin.hotdoged.v.HotdogedStart">
+            <intent-filter
+                android:label="Hotdoged">
+                <action
+                    android:name="com.pushkin.hotdoged.v.HotdogedStart" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+                <category
+                    android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/please_wait"
+            android:name="com.pushkin.hotdoged.v.MessagesView" />
+        <activity
+            android:label="@string/title_activity_groups_view"
+            android:name="com.pushkin.hotdoged.v.GroupsView" />
+        <activity
+            android:label="@string/title_activity_new_article_view"
+            android:name="com.pushkin.hotdoged.v.NewArticleView" />
+        <activity
+            android:label="@string/title_activity_reply_part_view"
+            android:name="com.pushkin.hotdoged.v.ReplyPartView" />
+        <activity
+            android:label="@string/title_activity_main_settings"
+            android:name="com.pushkin.hotdoged.v.MainSettingsActivity" />
+        <activity
+            android:label="@string/title_activity_single_message_view"
+            android:name="com.pushkin.hotdoged.v.SingleMessageView" />
+        <activity
+            android:label="@string/title_activity_select_group"
+            android:name="com.pushkin.hotdoged.v.SelectGroupActivity" />
+        <activity
+            android:label="@string/title_activity_notifications"
+            android:name="com.pushkin.hotdoged.v.NotificationsActivity">
+            <intent-filter>
+                <action
+                    android:name="com.pushkin.hotdoged.v.NotificationsActivity" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.pushkin.hotdoged.ContentUpdatedReceiver">
+            <intent-filter>
+                <action
+                    android:name="com.pushkin.hotdoged.contentupdated" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pushkin.hotdoged.ScheduledUpdateBroadcastReceiver">
+            <intent-filter>
+                <action
+                    android:name="com.pushkin.hotdoged.ScheduledUpdateBroadcastReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pushkin.hotdoged.BootBroadcastReceiver">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data
+                    android:scheme="package"
+                    android:path="com.pushkin.hotdoged" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pushkin.hotdoged.addressbook.UpdateABBroadcastReceiver">
+            <intent-filter>
+                <action
+                    android:name="com.pushkin.hotdoged.update_addressbook" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:label="@string/title_activity_schedule"
+            android:name="com.pushkin.hotdoged.v.ScheduleActivity" />
+        <service
+            android:name="com.pushkin.hotdoged.backup.BackupNowService">
+            <intent-filter>
+                <action
+                    android:name="com.pushkin.hotdoged.backup_now" />
+            </intent-filter>
+        </service>
+        <activity
+            android:label="@string/title_activity_restore_backup"
+            android:name="com.pushkin.hotdoged.v.RestoreBackupActivity" />
+        <activity
+            android:label="@string/title_activity_address_book"
+            android:name="com.pushkin.hotdoged.v.AddressBookActivity" />
+        <activity
+            android:label="@string/title_activity_share_content"
+            android:name="com.pushkin.hotdoged.v.ShareContentActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SEND" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SEND" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/title_activity_edit_pic_hosts"
+            android:name="com.pushkin.hotdoged.v.pichosting.EditPicHostsActivity"
+            android:parentActivityName="com.pushkin.hotdoged.v.MainSettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pushkin.hotdoged.v.MainSettingsActivity" />
+        </activity>
+        <activity
+            android:label="Filters"
+            android:name="com.pushkin.hotdoged.v.Filter.ActivityFilterList" />
+        <activity
+            android:label="Edit filter"
+            android:name="com.pushkin.hotdoged.v.Filter.EditFilterActivity" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:label="Search"
+            android:name="com.pushkin.hotdoged.v.Filter.ActivitySearch" />
+        <activity
+            android:label="About HotdogEd"
+            android:name="com.pushkin.hotdoged.v.AboutActivity" />
+        <activity
+            android:name="com.pushkin.hotdoged.v.SplitPartActivity" />
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false" />
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.pushkin.hotdoged.firebaseinitprovider"
+            android:initOrder="100" />
+    </application>
+</manifest>
