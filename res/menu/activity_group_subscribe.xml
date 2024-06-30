@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@android:drawable/ic_menu_save"
+        android:id="@id/item_ok"
+        android:orderInCategory="1"
+        android:title="@string/ok" />
+    <item
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:id="@id/item_cancel"
+        android:orderInCategory="2"
+        android:title="@string/cancel" />
+    <group
+        android:id="@id/groupSort"
+        android:orderInCategory="3">
+        <item
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:id="@id/item_sortorder"
+            android:title="@string/sort_order">
+            <menu>
+                <item
+                    android:id="@id/item_sort_name"
+                    android:title="@string/by_name"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/item_sort_count"
+                    android:title="@string/by_message_count"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/item_sort_last"
+                    android:title="@string/by_last_message_date"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/item_descending"
+                    android:title="@string/descending_order"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/item_subscribed_first"
+                    android:title="@string/subscribed_first"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+    <item
+        android:icon="@android:drawable/btn_plus"
+        android:id="@id/item_other_areas"
+        android:orderInCategory="4"
+        android:title="@string/other_areas"
+        android:checkable="true" />
+</menu>
