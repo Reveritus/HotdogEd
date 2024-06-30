@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_popup_sync"
+        android:id="@id/item_sync"
+        android:title="@string/sync_all"
+        app:showAsAction="always" />
+    <item
+        android:id="@id/itemSendUnsent"
+        android:title="@string/send_unsent_items"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/item_subscribe"
+        android:title="@string/manage_subscription"
+        app:showAsAction="never" />
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@id/item_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@id/itemCreateFilterGroup"
+        android:title="@string/new_filter_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemShowUnreadOnly"
+        android:title="@string/unread_groups_only"
+        android:checkable="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemShowInvisible"
+        android:title="@string/show_invisible"
+        android:checkable="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemAddressBook"
+        android:title="@string/address_book"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemSettings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemServerSettings"
+        android:title="@string/server_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemMarkAllRead"
+        android:title="@string/mark_all_read"
+        app:showAsAction="never" />
+</menu>

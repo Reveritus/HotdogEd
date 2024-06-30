@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_save"
+        android:id="@id/itemSendLater"
+        android:title="@string/send_later"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:id="@id/itemDiscard"
+        android:title="@string/discard"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@id/item_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@id/item_delete_overquoting"
+        android:title="@string/delete_overquoting"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemUndo"
+        android:visible="false"
+        android:title="@string/undo" />
+    <item
+        android:id="@id/itemSaveToDrafts"
+        android:visible="false"
+        android:title="@string/save_to_drafts" />
+    <item
+        android:id="@id/itemHelp"
+        android:title="@string/help" />
+</menu>

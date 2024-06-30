@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:id="@id/itemCancel"
+        android:visible="false"
+        android:title="@string/cancel"
+        app:showAsAction="always" />
+    <item
+        android:id="@id/itemNotNotify"
+        android:title="@string/not_notify_selected" />
+    <item
+        android:id="@id/itemNotifySound"
+        android:title="@string/notify_sound_selected" />
+    <item
+        android:id="@id/itemNotifyVirboSound"
+        android:title="@string/notify_vibrosound_selected" />
+</menu>

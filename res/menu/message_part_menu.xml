@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@id/groupPart"
+        android:orderInCategory="1">
+        <item
+            android:id="@id/menu_split_part"
+            android:title="@string/split_part" />
+        <item
+            android:id="@id/menu_delete_all_parts_above"
+            android:title="@string/delete_all_parts_above" />
+        <item
+            android:id="@id/menu_delete_all_parts_below"
+            android:title="@string/delete_all_parts_below" />
+        <item
+            android:id="@id/menu_clear_to_top_of_part"
+            android:title="@string/clear_to_top_of_part" />
+        <item
+            android:id="@id/menu_clear_to_bottom_of_part"
+            android:title="@string/clear_to_bottom_of_part" />
+    </group>
+    <group
+        android:id="@id/groupAddImage"
+        android:orderInCategory="2">
+        <item
+            android:id="@id/itemAddImageAbove"
+            android:title="@string/add_image_above">
+            <menu>
+                <item
+                    android:id="@id/menu_add_photo_above"
+                    android:orderInCategory="100"
+                    android:title="@string/add_from_camera" />
+                <item
+                    android:id="@id/menu_add_image_above"
+                    android:orderInCategory="120"
+                    android:title="@string/add_from_gallery" />
+            </menu>
+        </item>
+        <item
+            android:id="@id/itemAddImageBelow"
+            android:title="@string/add_image_below">
+            <menu>
+                <item
+                    android:id="@id/menu_add_photo_below"
+                    android:orderInCategory="100"
+                    android:title="@string/add_from_camera" />
+                <item
+                    android:id="@id/menu_add_image_below"
+                    android:orderInCategory="120"
+                    android:title="@string/add_from_gallery" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@id/groupSort"
+        android:orderInCategory="3">
+        <item
+            android:id="@id/itemSortOrder"
+            android:title="@string/sort_order">
+            <menu>
+                <item
+                    android:id="@id/itemSortByThread"
+                    android:title="@string/by_thread"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemSortByDate"
+                    android:title="@string/by_date"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemSortBySubject"
+                    android:title="@string/by_subject"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemSortByFrom"
+                    android:title="@string/by_from"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemSortById"
+                    android:title="@string/no_sorting"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemDescending"
+                    android:title="@string/descending_order"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@id/groupOptions"
+        android:orderInCategory="2">
+        <item
+            android:id="@id/itemShowRead"
+            android:title="@string/show_read"
+            android:checkable="true"
+            app:showAsAction="never" />
+        <item
+            android:icon="@drawable/fullscreen"
+            android:id="@id/itemFullscreen"
+            android:title="@string/fullscreen"
+            android:checkable="true"
+            app:showAsAction="always" />
+    </group>
+    <group
+        android:id="@id/groupLayout"
+        android:orderInCategory="4">
+        <item
+            android:icon="@android:drawable/ic_menu_view"
+            android:id="@id/itemLayout"
+            android:title="@string/layout"
+            app:showAsAction="ifRoom">
+            <menu>
+                <item
+                    android:id="@id/itemLayoutMCAuto"
+                    android:title="@string/messages_and_contents_auto"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemLayoutMCV"
+                    android:title="@string/messages_and_contents_vertical"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemLayoutMCH"
+                    android:title="@string/messages_and_contents_horizontal"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemLayoutM"
+                    android:title="@string/messages_only"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@id/groupArticle"
+        android:orderInCategory="1">
+        <item
+            android:icon="@android:drawable/sym_action_email"
+            android:id="@id/itemArticleReply"
+            android:title="@string/reply"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@id/itemArticleReplyAA"
+            android:title="@string/reply_in_another_group"
+            app:showAsAction="never" />
+        <item
+            android:icon="@android:drawable/ic_menu_edit"
+            android:id="@id/itemArticleEdit"
+            android:title="@string/edit"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@id/itemArticleNew"
+            android:title="@string/new_article" />
+        <item
+            android:id="@id/itemArticleForward"
+            android:title="@string/forward"
+            app:showAsAction="never" />
+        <item
+            android:icon="@android:drawable/ic_menu_search"
+            android:id="@id/item_search"
+            android:title="@string/search"
+            app:showAsAction="never" />
+        <item
+            android:id="@id/itemArticleMarkUnread"
+            android:title="@string/mark_article_unread" />
+        <item
+            android:id="@id/itemArticleDelete"
+            android:title="@string/delete_article" />
+        <item
+            android:id="@id/itemArticleViewUnmodified"
+            android:title="@string/view_raw_article" />
+        <item
+            android:id="@id/itemArticleCopyFGHIUrl"
+            android:title="@string/fghi_uri_copy" />
+        <item
+            android:icon="@android:drawable/ic_menu_share"
+            android:id="@id/itemArticleExport"
+            android:title="@string/share"
+            app:showAsAction="never" />
+    </group>
+    <item
+        android:id="@id/itemAddressBook"
+        android:orderInCategory="5"
+        android:title="@string/address_book"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemSettings"
+        android:orderInCategory="6"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemGroupSettings"
+        android:orderInCategory="7"
+        android:title="@string/group_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/itemHelp"
+        android:orderInCategory="8"
+        android:title="@string/help" />
+    <group
+        android:id="@id/groupScoring"
+        android:orderInCategory="5">
+        <item
+            android:id="@id/itemScoring"
+            android:title="@string/scoring">
+            <menu>
+                <item
+                    android:id="@id/itemTopic"
+                    android:title="@string/topic">
+                    <menu>
+                        <item
+                            android:id="@id/itemTopicInteresting"
+                            android:title="@string/interesting_20" />
+                        <item
+                            android:id="@id/itemTopicNotInteresting"
+                            android:title="@string/not_interesting_20" />
+                        <item
+                            android:id="@id/itemTopicBan"
+                            android:title="@string/ban" />
+                        <item
+                            android:id="@id/itemTopicScoreSetup"
+                            android:title="@string/edit_scoring" />
+                    </menu>
+                </item>
+                <item
+                    android:id="@id/itemThread"
+                    android:title="@string/thread">
+                    <menu>
+                        <item
+                            android:id="@id/itemThreadInteresting"
+                            android:title="@string/interesting_20" />
+                        <item
+                            android:id="@id/itemThreadNotInteresting"
+                            android:title="@string/not_interesting_20" />
+                        <item
+                            android:id="@id/itemThreadBan"
+                            android:title="@string/ban" />
+                        <item
+                            android:id="@id/itemThreadScoreSetup"
+                            android:title="@string/edit_scoring" />
+                    </menu>
+                </item>
+                <item
+                    android:id="@id/itemAuthor"
+                    android:title="@string/author">
+                    <menu>
+                        <item
+                            android:id="@id/itemAuthorInteresting"
+                            android:title="@string/interesting_20" />
+                        <item
+                            android:id="@id/itemAuthorNotInteresting"
+                            android:title="@string/not_interesting_20" />
+                        <item
+                            android:id="@id/itemAuthorBan"
+                            android:title="@string/ban" />
+                        <item
+                            android:id="@id/itemAuthorScoreSetup"
+                            android:title="@string/edit_scoring" />
+                    </menu>
+                </item>
+                <item
+                    android:id="@id/item_scoring_enabled_for_group"
+                    android:title="@string/scoring_enabled_for_group"
+                    android:checkable="true"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@id/itemSetupScoring"
+                    android:title="@string/setup_scoring" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@id/groupGoto"
+        android:orderInCategory="6">
+        <item
+            android:id="@id/itemGoto"
+            android:title="@string/goto_article">
+            <menu>
+                <item
+                    android:id="@id/itemPrevArticle"
+                    android:title="@string/prev" />
+                <item
+                    android:id="@id/itemNextArticle"
+                    android:title="@string/next" />
+                <item
+                    android:id="@id/itemPrevUnreadArticle"
+                    android:title="@string/prev_unread" />
+                <item
+                    android:id="@id/itemNextUnreadArticle"
+                    android:title="@string/next_unread" />
+                <item
+                    android:id="@id/itemPrevThread"
+                    android:title="@string/prev_thread" />
+                <item
+                    android:id="@id/itemNextThread"
+                    android:title="@string/next_thread" />
+                <item
+                    android:id="@id/itemNextUnreadThread"
+                    android:title="@string/next_unread_thread" />
+                <item
+                    android:id="@id/itemFirstArticle"
+                    android:title="@string/first" />
+                <item
+                    android:id="@id/itemLastArticle"
+                    android:title="@string/last" />
+                <item
+                    android:id="@id/itemFirstUnreadArticle"
+                    android:title="@string/first_unread" />
+                <item
+                    android:id="@id/itemLastUnreadArticle"
+                    android:title="@string/last_unread" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@id/groupTextSize"
+        android:orderInCategory="6">
+        <item
+            android:id="@id/itemTextSize"
+            android:title="@string/message_text_size">
+            <menu>
+                <item
+                    android:id="@id/itemTextSizeSmaller"
+                    android:title="@string/smaller"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemTextSizeSmall"
+                    android:title="@string/small"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemTextSizeMedium"
+                    android:title="@string/medium"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemTextSizeLarge"
+                    android:title="@string/large"
+                    android:checkable="true" />
+                <item
+                    android:id="@id/itemTextSizeLarger"
+                    android:title="@string/larger"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+</menu>
