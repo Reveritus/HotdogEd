@@ -1,0 +1,49 @@
+Это шаблоны хотдога. На стандартные эвенты, их там 4 штуки.
+
+Regular template:
+-----------------
+Hello, %TO_NAME%.
+
+%MESSAGE%
+
+--
+%SIGNATURE%
+-----------------
+
+Reply template:
+-----------------
+Hello, %TO_NAME%.
+On %DATE% you wrote:
+
+%MESSAGE%
+
+--
+%SIGNATURE%
+-----------------
+
+Forward template:
+-----------------
+Forwarding message from %GROUP%.
+Originally by: %FROM_NAME%, %FROM_ADDR%
+Original date: %DATE%
+Subject: %SUBJECT%
+***
+
+%MESSAGE%
+
+--
+%SIGNATURE%
+-----------------
+
+Answer template:
+-----------------
+Answering a message from %GROUP%.
+
+Hello, %TO_NAME%.
+On %DATE% you wrote:
+
+%MESSAGE%
+
+--
+%SIGNATURE%
+-----------------
